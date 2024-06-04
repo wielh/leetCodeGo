@@ -34,5 +34,4 @@ func removeElement(nums []int, val int) int {
 			nums[leftIndex] = tmp
 		}
 	}
-	return answer
 }
