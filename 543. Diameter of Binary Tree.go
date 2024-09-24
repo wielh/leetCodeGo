@@ -1,12 +1,5 @@
 package main
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func depth(root *TreeNode, diameter int) (int, int) {
 	if root == nil {
 		return 0, 0
